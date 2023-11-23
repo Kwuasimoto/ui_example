@@ -2,7 +2,7 @@
 
 module.exports = {
   plugins: ["prettier-plugin-tailwindcss"],
-  content: ["./src/**/*.{jsx,tsx,html,js,ts}"],
+  content: ["./src/**/*.{jsx,tsx,html,js,ts}", "./index.html"],
   darkMode: "class",
   theme: {
     fontFamily: {
